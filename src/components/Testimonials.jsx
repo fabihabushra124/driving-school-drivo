@@ -59,7 +59,7 @@ const Testimonials = () => {
   return (
     <section
       ref={containerRef}
-      className={`py-16 container mx-auto min-h-screen ${
+      className={`py-16 container mx-auto min-h-screen flex flex-col justify-center ${
         scrolling ? 'animate-[fadeIn_2s_linear]' : 'opacity-0'
       }`}
       id='testimonials'
